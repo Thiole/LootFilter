@@ -9,7 +9,7 @@ Show
 #Shows better currency differently from lower currency for efficiency
 
 Show
-    BaseType "Mirror of Kalandra" "Divine Orb" "Exalted Orb" "Divine Orb" "Orb of Regret" "Eternal Orb" "Regal Orb" 
+    BaseType "Mirror of Kalandra" "Exalted Orb" "Divine Orb" "Orb of Regret" "Eternal Orb" "Regal Orb" 
     SetFontSize 35
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
@@ -386,7 +386,7 @@ ItemLevel <= 70
     SetBackgroundColor 153 153 0
 
 Show
-    BaseType "Sai" "Demon Fangs" "Moon Staff" " Ancient Needle" "Moon Claw" " Ancient Blade" "Dragon Mace" ""Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
+    BaseType "Sai" "Demon Fangs" "Moon Staff" "Ancient Needle" "Moon Claw" "Ancient Blade" "Dragon Mace" ""Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
     Rarity Rare
 	SetFontSize 30
     SetTextColor 0 0 0
@@ -558,7 +558,7 @@ Show
    	SetFontSize 30   
 ItemLevel <= 70
 Show
-    BaseType  "Sai" "Demon Fangs" "Moon Staff" " Ancient Needle" "Moon Claw" " Ancient Blade" "Dragon Mace" ""Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Vaal Regalia" "Saintly Chainmail" "Titanium Spirit Shield" "Murder Boots" "Titan Greaves" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Slink Boots" "Slink Gloves" "Titan Gauntlets" "Sorcerer Gloves" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Carnal Armour" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
+    BaseType  "Sai" "Demon Fangs" "Moon Staff" " Ancient Needle" "Moon Claw" " Ancient Blade" "Dragon Mace" "Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Vaal Regalia" "Saintly Chainmail" "Titanium Spirit Shield" "Murder Boots" "Titan Greaves" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Slink Boots" "Slink Gloves" "Titan Gauntlets" "Sorcerer Gloves" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Carnal Armour" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
      	SetFontSize 30
 	 Rarity Normal
 
