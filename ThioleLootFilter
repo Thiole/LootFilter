@@ -372,7 +372,7 @@ Show
     BaseType "Lion Sword" "Imperial Maul" "Vaal Axe" "Despot Axe" "Spiraled Foil" "Spine Bow" "Eye Gouger" "Ezomyte Dagger" "Gavel" "Legion Hammer" "Pernarch" "Auric Mace" "Legion Sword" "Platinum Sceptre"
     Rarity Rare
 ItemLevel <= 70
-	SetFontSize 30 0 0 0
+	SetFontSize 30
     SetBorderColor 0 0 0
     SetBackgroundColor 153 153 0
 
