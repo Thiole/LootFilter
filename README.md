@@ -5,6 +5,7 @@ HOW TO ADD TO Path Of Exile
 1) Save the desired file to %My Documents%/My Games/Path of Exile
 
 2) Restart Path of Exile Beta if you have it open
+  
   3) Start game 
   
   4) Login to Beta
