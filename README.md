@@ -6,7 +6,9 @@ HOW TO ADD TO Path Of Exile
 
 2) Restart Path of Exile Beta if you have it open
   3) Start game 
+  
   4) Login to Beta
+ 
   5) Esc > Options
 
   6) GO to UI tab, at the bottom select the filter, once it says "Filter loaded successfully" no restart required, you are good to go
