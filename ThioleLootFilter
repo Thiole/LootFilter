@@ -405,6 +405,10 @@ Rarity Rare
 Show 
 Rarity Rare
 
+Show
+Class Flask 
+Quality > 13
+    SetBorderColor 255 255 255
 
 Show
 Class Flask 
