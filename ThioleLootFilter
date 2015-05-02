@@ -279,7 +279,7 @@ ItemLevel <= 43
 
 
 Show
-    BaseType "Omen Wand" "Footman Sword" "Great Mallet" "Timber Axe" "Wyrmbone Rapier" "Quarterstaff" "Decurve Bow""Thresher Claw" "Flaying Knife" "Jasper Axe" "Dream Mace" "Variscite Blade" "Grinning Fetish"
+    BaseType "Omen Wand" "Footman Sword" "Great Mallet" "Timber Axe" "Wyrmbone Rapier" "Quarterstaff" "Decurve Bow" "Thresher Claw" "Flaying Knife" "Jasper Axe" "Dream Mace" "Variscite Blade" "Grinning Fetish"
     Rarity Rare
 ItemLevel <= 46
 	SetFontSize 30
@@ -500,7 +500,7 @@ ItemLevel <= 43
 
 
 Show
-    BaseType "Omen Wand" "Footman Sword" "Great Mallet" "Timber Axe" "Wyrmbone Rapier" "Quarterstaff" "Decurve Bow""Thresher Claw" "Flaying Knife" "Jasper Axe" "Dream Mace" "Variscite Blade" "Grinning Fetish"
+    BaseType "Omen Wand" "Footman Sword" "Great Mallet" "Timber Axe" "Wyrmbone Rapier" "Quarterstaff" "Decurve Bow" "Thresher Claw" "Flaying Knife" "Jasper Axe" "Dream Mace" "Variscite Blade" "Grinning Fetish"
 	SetFontSize 30
 ItemLevel <= 46
 
