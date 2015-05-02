@@ -452,6 +452,7 @@ SetBorderColor 0 255 0
 Show
 BaseType "Quicksilver Flask" "Prophecy Wand" "Leather Belt" "Occultist's Vestment" "Lapis Amulet" "Amber Amulet" "Agate Amulet" "Gavel" 
     SetFontSize 30
+	Rarity Normal
 	SetBorderColor 255 0 255
 
 Show
