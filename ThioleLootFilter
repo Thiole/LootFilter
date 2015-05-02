@@ -32,77 +32,77 @@ Show
 Show
     BaseType "Imperial Staff"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 Show
     BaseType "Vile Staff"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 Show
     BaseType "Judgement Staff"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 Show
     BaseType "Long Staff"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 Show
     BaseType "Prophecy Wand"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 Show
     BaseType "Spiraled Wand"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 #Claws / Daggers
 Show
     BaseType "Thresher Claw"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 Show
     BaseType "Slaughter Knife"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 Show
     BaseType "Imperial Skean"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 #Maces / Sceptres / Mauls / Axes
 Show
     BaseType "Gavel"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 Show
     BaseType "Void Sceptre"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 Show
     BaseType "Siege Axe"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 #Swords
 
 
@@ -111,50 +111,50 @@ Show
 Show
     BaseType "Spine Bow" "Imperial Bow"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 
 #Body Armor 
 Show
     BaseType "Simple Robe" "Full Wyrmscale" "Varnished Coat" "Occultist's Vestment" "Glorious Plate" "Sacrificial Garb"
     Rarity Unique 
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 
 #boots
 Show
     BaseType "Conjurer Boots"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 #gloves 
 Show
     BaseType "Vaal Gauntlets" "Strapped Mitts" "Conjurer Gloves" "Deerskin Gloves" "Murder Mitts"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 
 
 #helm
 Show
     BaseType "Sinner Tricorne" "Ursine Pelt"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 
 #shields
 
 Show
     BaseType "Champion Kite Shield" "Archon Kite Shield" "Titanium Spirit Shield" "Mosaic Kite Shield" "Branded Kite Shield"
     Rarity Unique 
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 
 #Amulet / Ring/ Belt
 
@@ -162,24 +162,24 @@ Show
 Show
     BaseType "Amber Amulet" "Onyx Amulet" "Agate Amulet" "Chain Belt"
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 
 Show
     BaseType "Gold Ring" "Sapphire Ring" "Prismatic Ring" "Amethyst Ring" "Paua Ring"
     Rarity Unique 
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 
 #Utility
 Show
     Class Jewel
     Rarity Unique
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
-    SetBackgroundColor 175 100 40
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
 
 Show
     Class Jewel
