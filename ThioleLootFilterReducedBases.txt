@@ -479,7 +479,7 @@ Show
 
 
 Show
-    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staff" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 7
 	DropLevel >= 1
 	Rarity Normal
