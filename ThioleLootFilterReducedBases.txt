@@ -1,5 +1,5 @@
 
-###BETA VERSION 1.1338.3121
+###BETA VERSION 1.2
 
 
 #------------------------------------------------------------------
@@ -18,6 +18,7 @@ Show
 	SetTextColor 255 100 0
 	SetBorderColor 255 100 0
 	
+
 Show
     Class "Active Skill Gems" "Support Skill Gems"
 	SetFontSize 23
@@ -29,6 +30,8 @@ Show
     SetFontSize 25
 	Rarity Normal
 	SetBorderColor 255 0 255
+
+
 ################currency highlighting
 Show
     BaseType "Mirror of Kalandra" "Exalted Orb" "Divine Orb" "Orb of Regret" "Eternal Orb" "Regal Orb" 
@@ -43,10 +46,12 @@ Show
 	SetFontSize 30
 
 
+
+
 Show
 	Class Currency
 	SetTextColor 200 200 130
-	SetFontSize 25
+	SetFontSize 27
 
 	#############################
     
@@ -221,6 +226,7 @@ Show
 	SetFontSize 30
 	SetTextColor 175 100 40
 	SetBackgroundColor 0 0 0
+
 
 
 ################RARES######################
@@ -408,6 +414,7 @@ Show
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
+
 Show
     BaseType "Sai" "Demon Fangs" "Moon Staff" "Ancient Needle" "Moon Claw" "Ancient Blade" "Dragon Mace" "Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
     Rarity Rare
@@ -428,15 +435,17 @@ Rarity Rare
 	Show 
 	Rarity Rare
 	SetFontSize 20
+	
 Show
 	Class Flask 
 	Quality > 13
     SetBorderColor 255 255 255
-
+	
 Show
 	Class Flask 
 	Quality > 5
 
+	
 Show
     SocketGroup RGB BGR
 	SetFontSize 25
@@ -452,11 +461,20 @@ Show
 	SetFontSize 25
 	SetTextColor 0 255 0
     SetBorderColor 0 255 0
+Show
+	BaseType "Medium Life Flask"
+	ItemLevel < 19
+	SetFontSize 25
+    SetBorderColor 255 255 255 
+
 	
 Show
     BaseType "Gavel" "Rock Breaker" "Stone Hammer"
     Rarity Normal
 		SetFontSize 30
+		
+
+	
 Show
     BaseType "Gavel" "Rock Breaker" "Stone Hammer"
     Rarity Magic
@@ -468,12 +486,14 @@ Show
     SetBorderColor 255 0 0 
 	SetFontSize 30
 
+
 Show
     Sockets 6
     SetBorderColor 255 255 255 
 	SetFontSize 30
 
 
+	
 Show
     LinkedSockets <= 3
 	ItemLevel < 20
@@ -624,7 +644,6 @@ Show
 
 
 
-
 #---------------------------------------Basetypes/Blah--------------------------------- 
 
 Show
@@ -729,52 +748,69 @@ SetTextColor 0 0 0
     SetBorderColor 0 0 0
     SetBackgroundColor 255 255 255
 
+	
 
 Show
 BaseType "Small Life Flask"
 ItemLevel < 12
-
+	SetFontSize 25
+    SetBorderColor 255 255 255 
+	
 Show
-BaseType "Medium Life Flask"
-ItemLevel < 19
+	BaseType "Medium Life Flask"
+	ItemLevel < 19
+	SetFontSize 25
     SetBorderColor 255 255 255 
 
-Show
+	Show
 BaseType "Large Life Flask"
 ItemLevel < 20
+	SetFontSize 25
     SetBorderColor 255 255 255 
-Show
+
+	Show
 BaseType "Greater Life Flask"
-ItemLevel < 24
+	ItemLevel < 24
+    	SetFontSize 25
     SetBorderColor 255 255 255 
-Show
-BaseType "Grand Life Flask"
-ItemLevel < 30
+
+	Show
+	BaseType "Grand Life Flask"
+	ItemLevel < 30
+	SetFontSize 25
     SetBorderColor 255 255 255 
+
 Show
-BaseType "Giant Life Flask"
-ItemLevel < 38
+	BaseType "Giant Life Flask"
+	ItemLevel < 38
+	SetFontSize 25
     SetBorderColor 255 255 255 
 Show
 BaseType "Colossal Life Flask"
 ItemLevel < 41
+	SetFontSize 25
     SetBorderColor 255 255 255 
 Show
 BaseType "Sacred Life Flask"
 ItemLevel < 49
+   	SetFontSize 25
     SetBorderColor 255 255 255 
 Show
 BaseType "Hallowed Life Flask"
 ItemLevel < 58
+    	SetFontSize 25
     SetBorderColor 255 255 255 
 Show
 BaseType "Sanctified Life Flask"
+ 	ItemLevel < 70
+	SetFontSize 25
     SetBorderColor 255 255 255 
-	ItemLevel < 70
+
 	
 Show
 BaseType "Divine Life Flask" "Eternal Life Flask"
-SetBorderColor 255 255 255
+	SetFontSize 25
+    SetBorderColor 255 255 255 
 	
 Hide 
 
