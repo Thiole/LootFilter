@@ -28,7 +28,7 @@ Show
 	BaseType "Quicksilver Flask" "Prophecy Wand" "Leather Belt" "Occultist's Vestment" "Lapis Amulet" "Amber Amulet" "Agate Amulet" "Gavel" 
     SetFontSize 30 
 	Rarity Normal
-	SetBorderColor 27 5 0 27 5
+	SetBorderColor 255 0 255
 
 
 ################currency highlighting
@@ -209,7 +209,7 @@ Show
 
 Show
     Class Jewel
-    SetBorderColor 27 5 0 27 5
+    SetBorderColor 255 0 255
 	
 Show
     Class "Utility Flask"
@@ -451,8 +451,8 @@ Show
 Show
     SocketGroup RGB BGR
 	SetFontSize 30 
-	SetTextColor 0 27 5 0
-    SetBorderColor 0 27 5 0
+	SetTextColor 0 255 0
+    SetBorderColor 0 255 0
 	
 Show
 	Class "Utility Flask"
@@ -462,8 +462,8 @@ Show
 Show
     SocketGroup RGB BGR
 	SetFontSize 30 
-	SetTextColor 0 27 5 0
-    SetBorderColor 0 27 5 0
+	SetTextColor 0 255 0
+    SetBorderColor 0 255 0
 
 
 
@@ -471,7 +471,7 @@ Show
 	BaseType "Medium Life Flask"
 	ItemLevel < 19
 	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 	
 Show
@@ -681,7 +681,7 @@ Class  "Maps"
 	DropLevel = 66
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5
+    SetBackgroundColor 255 255 255
 
 Show
 	Class  "Maps"
@@ -689,7 +689,7 @@ Show
 	DropLevel > 67
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5
+    SetBackgroundColor 255 255 255
 	
 Show
 	Class  "Maps"
@@ -697,7 +697,7 @@ Show
 	DropLevel > 69
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5
+    SetBackgroundColor 255 255 255
 	
 Show
 	Class  "Maps"
@@ -705,7 +705,7 @@ Show
 	DropLevel > 70
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5	
+    SetBorderColor 255 255 255
 	
 Show
 	Class  "Maps"
@@ -713,7 +713,7 @@ Show
 	DropLevel > 70
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5
+    SetBackgroundColor 255 255 255
 
 Show
 	Class  "Maps"
@@ -721,7 +721,7 @@ Show
 	DropLevel > 71
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5
+    SetBackgroundColor 255 255 255
 	
 Show
 	Class  "Maps"
@@ -729,7 +729,7 @@ Show
 	DropLevel > 71
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5
+    SetBackgroundColor 255 255 255
 	
 Show
 	Class  "Maps"
@@ -737,7 +737,7 @@ Show
 	DropLevel > 72
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5
+    SetBackgroundColor 255 255 255
 		
 Show
 	Class  "Maps"
@@ -745,20 +745,20 @@ Show
 	DropLevel > 73
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5	
+	SetBackgroundColor 255 255 255
 	
 Show
 	Class  "Maps"
 	DropLevel >= 74
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 27 5
+    SetBackgroundColor 255 255 255
 
 Show
 Class "Map Fragments" "Maps"
 SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 27 5 27 5 27 5
+    SetBackgroundColor 255 255 255
 
 	
 
@@ -766,67 +766,67 @@ Show
 BaseType "Small Life Flask"
 ItemLevel < 12
 	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 	
 Show
 	BaseType "Medium Life Flask"
 	ItemLevel < 19
 	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 	Show
 	BaseType "Large Life Flask"
 	ItemLevel < 20
 	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 	Show
 BaseType "Greater Life Flask"
 	ItemLevel < 24
     	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 	Show
 	BaseType "Grand Life Flask"
 	ItemLevel < 30
 	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 Show
 	BaseType "Giant Life Flask"
 	ItemLevel < 38
 	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 Show
 	BaseType "Colossal Life Flask"
 	ItemLevel < 41
 	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 Show
 BaseType "Sacred Life Flask"
 ItemLevel < 49
    	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 Show
 BaseType "Hallowed Life Flask"
 ItemLevel < 58
     	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 Show
 BaseType "Sanctified Life Flask"
  	ItemLevel < 70
 	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 
 	
 Show
 	BaseType "Divine Life Flask" "Eternal Life Flask"
 	SetFontSize 30 
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 255
 	
 
 Hide 
