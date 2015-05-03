@@ -1,4 +1,7 @@
 
+
+
+
 #------------------------------------------------------------------
 #Fishing Rods First OFC
 Show
@@ -206,176 +209,176 @@ SetBackgroundColor 0 0 0
 #Rares
 
 Show
-    BaseType "Driftwood Wand" "Corroded Blade" "Driftwood Maul" "Stone Axe" "Rusted Spike" "Gnarled Branch" "Crude Bow" "Nailed Fist" "Glass Shank" "Rusted Hatchet" "Driftwood Club" "Rusted Sword" "Driftwood Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 14
+	ItemLevel <= 7
+	DropLevel >= 1
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Goat's Horn" "Longsword" "Tribal Maul" "Jade Chopper" "Whalebone Rapier" "Primitive Staff" "Short Bow" "Sharktooth Claw" "Skinning Knife" "Jade Hatchet" "Copper Sword" "Darkwood Sceptre"
+Show
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 19
+	ItemLevel <= 10
+	DropLevel > 5
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Carved Wand" "Bastard Sword" "Mallet" "Woodsplitter" "Battered Foil" "Long Staff" "Composite Bow" "Awl" "Carving Knife" "Boarding Axe" "Tribal Club" "Sabre" "Bronze Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 27
+	ItemLevel <= 14
+	DropLevel > 7
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Quartz Wand" "Two-Handed Sword" "Sledgehammer" "Poleaxe" "Basket Rapier" "Iron Staff" "Recurve Bow" "Cat's Paw" "Stiletto" "Cleaver" "Spiked Club" "Broad Sword" "Quartz Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 31
+	ItemLevel <= 17
+	DropLevel > 10
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Spiraled Wand" "Etched Greatsword" "Spiked Maul" "Double Axe" "Jagged Foil" "Coiled Staff" "Bone Bow" "Blinder" "Boot Knife" "Broad Axe" "Stone Hammer" "War Sword" "Iron Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 34
+	ItemLevel <= 21
+	DropLevel > 15
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Sage Wand" "Ornate Sword" "Brass Maul" "Gilded Axe" "Antique Rapier" "Royal Staff" "Royal Bow" "Timeworn Claw" "Copper Kris" "Arming Axe" "War Hammer" "Ancient Sword" "Ochre Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 37
+	ItemLevel <= 25
+	DropLevel > 20
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Faun's Horn" "Spectral Sword" "Fright Maul" "Shadow Axe" "Elegant Foil" "Vile Staff" "Death Bow" "Sparkling Claw" "Skean" "Decorative Axe" "Bladed Mace" "Elegant Sword" "Ritual Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 40
+	ItemLevel <= 27
+	DropLevel > 21
+	SetFontSize 30
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
+    SetBackgroundColor 0 0 0
+	
+Show
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+    Rarity Rare
+	ItemLevel <= 30
+	DropLevel > 25
+	SetFontSize 30
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
+    SetBackgroundColor 0 0 0
+
+
+Show
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+    Rarity Rare
+	ItemLevel <= 34
+	DropLevel > 28
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Engraved Wand" "Crystal Wand" "Butcher Sword" "Totemic Maul" "Jasper Chopper" "Thorn Rapier" "Woodful Staff" "Grove Bow" "Fright Claw" "Imp Dagger" "Spectral Axe" "Ceremonial Mace" "Dusk Blade" "Shadow Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 43
+	ItemLevel <= 39
+	DropLevel > 33
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
-
-
+	
 Show
-    BaseType "Omen Wand" "Footman Sword" "Great Mallet" "Timber Axe" "Wyrmbone Rapier" "Quarterstaff" "Decurve Bow" "Thresher Claw" "Flaying Knife" "Jasper Axe" "Dream Mace" "Variscite Blade" "Grinning Fetish"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 46
-	SetFontSize 30
-    SetTextColor 255 255 0
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
-
-Show
-    BaseType "Demon's Horn" "Serpent Wand" "Highland Blade" "Steelhead" "Headsman Axe" "Burnished Foil" "Military Staff" "Compound Bow" "Gouger" "Butcher Knife" "Tomahawk" "Petrified Club" "Cutlass" "Sekhem"
-    Rarity Rare
-ItemLevel <= 49
+	ItemLevel <= 45
+	DropLevel > 39
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType  "Engraved Greatsword" "Labrys" "Estoc" "Serpentine Staff" "Sniper Bow" "Tiger's Paw" "Poignard" "Wrist Chopper" "Barbed Club" "Baselard" "Crystal Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 52
+	ItemLevel <= 50
+	DropLevel > 44
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Tiger Sword" "Spiny Maul" "Serrated Foil" "Highborn Staff" "Ivory Bow" "Gut Ripper" "Boot Knife" "War Axe" "Rock Breaker" "Battle Sword" "Lead Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 55
+	ItemLevel <= 56
+	DropLevel > 49
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Wraith Sword" "Plated Maul" "Noble Axe" "Fancy Foil" "Highborn Bow" "Prehistoric Claw" "Golden Kris" "Chest Splitter" "Battle Hammer" "Elder Sword" "Blood Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 57
+	ItemLevel <= 60
+	DropLevel > 53
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Headman's Sword" "Dread Maul" "Foul Staff" "Decimation Bow" "Noble Claw" "Royal Skean" "Ceremonial Axe" "Wraith Axe" "Flanged Mace" "Graceful Sword" "Royal Sceptre"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 59
+	ItemLevel <= 65
+	DropLevel > 59
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Reaver Sword" "Karui Maul" "Abyssal Axe" "Apex Rapier" "Eagle Claw" "Fiend Dagger" "Ornate Mace" "Twilight Blade" "Abyssal Sceptre"
-ItemLevel <= 61
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-		SetFontSize 30
-    SetTextColor 255 255 0
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
-
-Show
-    BaseType "Ezomyte Blade" "Colossus Mallet" "Karui Chopper" "Dragonbone Rapier" "Primordial Staff" "Citadel Bow" "Great White Claw" "Gutting Knife" "Karui Axe" "Phantom Mace" "Gemstone Sword" "Karui Sceptre"
-    Rarity Rare
-ItemLevel <= 63
+	ItemLevel <= 70
+	DropLevel > 64
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-    BaseType "Opal Wand" "Vaal Greatsword" "Piledriver" "Sundering Axe" "Tempered Foil" "Lathi" "Ranger Bow" "Throat Stabber" "Slaughter Knife" "Siege Axe" "Ancestral Club" "Corsair Sword" "Tyrant's Sekhem"
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-ItemLevel <= 65
+	DropLevel > 68
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
-Show
-    BaseType "Meatgrinder" "Ezomyte Axe" "Pecoraro" "Ezomyte Staff" "Maraketh Bow" "Hellion's Paw" "Reaver Axe" "Butcher Axe" "Tenderizer" "Gladius" "Opal Sceptre"
-    Rarity Rare
-ItemLevel <= 67
-	SetFontSize 30
-    SetTextColor 255 255 0
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
-
-Show
-    BaseType "Lion Sword" "Imperial Maul" "Vaal Axe" "Despot Axe" "Spiraled Foil" "Spine Bow" "Eye Gouger" "Ezomyte Dagger" "Gavel" "Legion Hammer" "Pernarch" "Auric Mace" "Legion Sword" "Platinum Sceptre"
-    Rarity Rare
-ItemLevel <= 70
-	SetFontSize 30
-    SetTextColor 255 255 0
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
 
 Show
     BaseType "Terror Maul" "Vaal Rapier" "Imperial Staff" "Carnal Sceptre" "Imperial Bow" "Vaal Claw" "Thicket Bow" "Vaal Hatchet" "Royal Axe" "Nightmare Mace" "Vaal Blade" "Vaal Sceptre"
@@ -464,44 +467,149 @@ Show
     Class "Active Skill Gems" "Support Skill Gems"
 	SetFontSize 25
 
-Show
-    BaseType "Plate Vest" "Padded Vest" "Chainmail Vest" "Scale Vest" "Simple Robe" "Shabby Jerkin" "Driftwood Wand" "Corroded Blade" "Driftwood Maul" "Stone Axe" "Rusted Spike" "Gnarled Branch" "Crude Bow" "Nailed Fist" "Glass Shank" "Rusted Hatchet" "Driftwood Club" "Rusted Sword" "Driftwood Sceptre"
-	SetFontSize 30
-ItemLevel <= 14
+###################### Sub rare rarity show #######################
+
+
+
 
 Show
-    BaseType "Chestplate" "Chainmail Tunic" "Light Brigandine" "Strapped Leather" "Oiled Vest" "Silken Vest" "Goat's Horn" "Longsword" "Tribal Maul" "Jade Chopper" "Whalebone Rapier" "Primitive Staff" "Short Bow" "Sharktooth Claw" "Skinning Knife" "Jade Hatchet" "Copper Sword" "Darkwood Sceptre"
-ItemLevel <= 19
-	SetFontSize 30
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 7
+	DropLevel >= 1
+	Rarity Normal
+	SetFontSize 25
+
+Show
+Show
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 10
+	DropLevel > 5
+	Rarity Normal
+	SetFontSize 25
+
+Show
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 14
+	DropLevel > 7
+	Rarity Normal
+	SetFontSize 25
+
+Show
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 17
+	DropLevel > 10
+	Rarity Normal
+	SetFontSize 25
+
+Show
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 21
+	DropLevel > 15
+	Rarity Normal
+	SetFontSize 25
+
+Show
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 25
+	DropLevel > 20
+	Rarity Normal
+	SetFontSize 25
+
+Show
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 27
+	DropLevel > 21
+	Rarity Normal
+	SetFontSize 25
 	
 Show
-    BaseType "Infantry Brigandine" "Oiled Coat" "Chainmail Doublet" "War Plate" "Buckskin Tunic" "Ringmail Coat" "Scale Doublet" "Scholar's Robe" "Padded Jacket"  "Copper Plate" "Carved Wand" "Bastard Sword" "Mallet" "Woodsplitter" "Battered Foil" "Long Staff" "Composite Bow" "Awl" "Carving Knife" "Boarding Axe" "Tribal Club" "Sabre" "Bronze Sceptre"
-  	SetFontSize 30
-	ItemLevel <= 27
-Show
-    BaseType "Quartz Wand"  "Two-Handed Sword" "Sledgehammer" "Poleaxe" "Basket Rapier" "Iron Staff" "Recurve Bow" "Cat's Paw" "Stiletto" "Cleaver" "Spiked Club" "Broad Sword" "Quartz Sceptre"
-	SetFontSize 30
-ItemLevel <= 31
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 30
+	DropLevel > 25
+	Rarity Normal
+	SetFontSize 25
+
 
 Show
-    BaseType "Spiraled Wand" "Etched Greatsword" "Spiked Maul" "Double Axe" "Jagged Foil" "Coiled Staff" "Bone Bow" "Blinder" "Boot Knife" "Broad Axe" "Stone Hammer" "War Sword" "Iron Sceptre"
-	SetFontSize 30
-ItemLevel <= 34
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 34
+	DropLevel > 28
+	Rarity Normal
+	SetFontSize 25
 
 Show
-    BaseType "Lion Sword" "Imperial Maul" "Vaal Axe" "Despot Axe" "Spiraled Foil" "Spine Bow" "Eye Gouger" "Ezomyte Dagger" "Gavel" "Legion Hammer" "Pernarch" "Auric Mace" "Legion Sword" "Platinum Sceptre"
-	SetFontSize 30
-ItemLevel <= 70
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 39
+	DropLevel > 33
+	Rarity Normal
+	SetFontSize 25
+	
+Show
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 45
+	DropLevel > 39
+	Rarity Normal
+	SetFontSize 25
+
+Show
+    Class  "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 50
+	DropLevel > 44
+	Rarity Normal
+	SetFontSize 25
+
+Show
+    Class  "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 56
+	DropLevel > 49
+	Rarity Normal
+	SetFontSize 25
+
+Show
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 60
+	DropLevel > 53
+	Rarity Normal
+	SetFontSize 25
+
+Show
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 65
+	DropLevel > 59
+	Rarity Normal
+	SetFontSize 25
+
+
+Show
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	ItemLevel <= 70
+	DropLevel > 64
+	Rarity Normal
+	SetFontSize 25
+
+
+Show
+    Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+	DropLevel > 68
+	Rarity Normal
+	SetFontSize 25
+
+
 
 Show
     BaseType "Terror Maul" "Vaal Rapier" "Imperial Staff" "Carnal Sceptre" "Imperial Bow" "Vaal Claw" "Thicket Bow" "Vaal Hatchet" "Royal Axe" "Nightmare Mace" "Vaal Blade" "Vaal Sceptre"
-   	SetFontSize 30   
+	Rarity Normal
+	SetFontSize 25
 	ItemLevel <= 70
 
+
 Show
-    BaseType  "Sai" "Demon Fangs" "Moon Staff" "Ancient Needle" "Moon Claw" "Ancient Blade" "Dragon Mace" "Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Vaal Regalia" "Saintly Chainmail" "Titanium Spirit Shield" "Murder Boots" "Titan Greaves" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Slink Boots" "Slink Gloves" "Titan Gauntlets" "Sorcerer Gloves" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Carnal Armour" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
-     	SetFontSize 30
-	 Rarity Normal
+    BaseType "Sai" "Demon Fangs" "Moon Staff" "Ancient Needle" "Moon Claw" "Ancient Blade" "Dragon Mace" "Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
+	
+	SetFontSize 25
+
+
+
 
 #---------------------------------------Basetypes/Blah--------------------------------- 
 
@@ -571,5 +679,5 @@ Show
 BaseType "Divine Life Flask" "Eternal Life Flask"
 SetBorderColor 255 255 255
 	
-	Hide 
+Hide 
 
