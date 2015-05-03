@@ -1,6 +1,10 @@
 # LootFilter
 Please message me ingame @Thiole with feedback or questions
 
+http://i.imgur.com/5GLAcsX.jpg How it looks in game
+
+
+
 Loot filter for PoE Beta 2.0
 
 HOW TO ADD TO Path Of Exile
