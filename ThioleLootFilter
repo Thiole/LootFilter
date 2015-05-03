@@ -186,7 +186,7 @@ Show
     SetBorderColor 255 0 255
 	
 Show
-    Class "Utility Flasks"
+    Class "Utility Flask"
     Rarity Unique
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
