@@ -522,21 +522,21 @@ Show
 	ItemLevel <= 7
 	DropLevel >= 1
 	Rarity Normal
-	SetFontSize 23
+	SetFontSize 29
 
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 10
 	DropLevel > 5
 	Rarity Normal
-	SetFontSize 23
+	SetFontSize 29
 
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 14
 	DropLevel > 7
 	Rarity Normal
-	SetFontSize 23
+	SetFontSize 29
 
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
@@ -550,7 +550,7 @@ Show
 	ItemLevel <= 21
 	DropLevel > 15
 	Rarity Normal
-	SetFontSize 23
+	SetFontSize 29
 
 Show
     Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
