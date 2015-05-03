@@ -233,7 +233,7 @@ Show
     Rarity Rare
 	ItemLevel <= 7
 	DropLevel >= 1
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -243,7 +243,7 @@ Show
     Rarity Rare
 	ItemLevel <= 10
 	DropLevel > 5
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -253,7 +253,7 @@ Show
     Rarity Rare
 	ItemLevel <= 14
 	DropLevel > 7
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -263,7 +263,7 @@ Show
     Rarity Rare
 	ItemLevel <= 17
 	DropLevel > 10
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -273,7 +273,7 @@ Show
     Rarity Rare
 	ItemLevel <= 21
 	DropLevel > 15
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -283,7 +283,7 @@ Show
     Rarity Rare
 	ItemLevel <= 25
 	DropLevel > 20
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -293,7 +293,7 @@ Show
     Rarity Rare
 	ItemLevel <= 27
 	DropLevel > 21
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -303,7 +303,7 @@ Show
     Rarity Rare
 	ItemLevel <= 30
 	DropLevel > 25
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -314,7 +314,7 @@ Show
     Rarity Rare
 	ItemLevel <= 34
 	DropLevel > 28
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -324,7 +324,7 @@ Show
     Rarity Rare
 	ItemLevel <= 39
 	DropLevel > 33
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -334,7 +334,7 @@ Show
     Rarity Rare
 	ItemLevel <= 45
 	DropLevel > 39
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -344,7 +344,7 @@ Show
     Rarity Rare
 	ItemLevel <= 50
 	DropLevel > 44
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -354,7 +354,7 @@ Show
     Rarity Rare
 	ItemLevel <= 56
 	DropLevel > 49
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -364,7 +364,7 @@ Show
     Rarity Rare
 	ItemLevel <= 60
 	DropLevel > 53
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -374,7 +374,7 @@ Show
     Rarity Rare
 	ItemLevel <= 65
 	DropLevel > 59
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -384,7 +384,7 @@ Show
     Rarity Rare
 	ItemLevel <= 70
 	DropLevel > 64
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -393,7 +393,7 @@ Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
 	DropLevel > 68
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -403,7 +403,7 @@ Show
     BaseType "Terror Maul" "Vaal Rapier" "Imperial Staff" "Carnal Sceptre" "Imperial Bow" "Vaal Claw" "Thicket Bow" "Vaal Hatchet" "Royal Axe" "Nightmare Mace" "Vaal Blade" "Vaal Sceptre"
     Rarity Rare
 	ItemLevel <= 70
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -411,7 +411,7 @@ Show
 Show
     BaseType "Sai" "Demon Fangs" "Moon Staff" "Ancient Needle" "Moon Claw" "Ancient Blade" "Dragon Mace" "Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
     Rarity Rare
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -419,7 +419,7 @@ Show
 Show
 Class Amulets Rings Belt
 Rarity Rare
-	SetFontSize 20
+	SetFontSize 25
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
