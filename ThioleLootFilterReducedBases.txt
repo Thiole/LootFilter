@@ -446,6 +446,36 @@ Show
 	SetFontSize 30
 	SetTextColor 0 255 0
     SetBorderColor 0 255 0
+	
+Show
+    SocketGroup RBG
+	SetFontSize 30
+	SetTextColor 0 255 0
+    SetBorderColor 0 255 0
+	
+Show
+    SocketGroup BGR
+	SetFontSize 30
+	SetTextColor 0 255 0
+    SetBorderColor 0 255 0
+	
+Show
+    SocketGroup BRG
+	SetFontSize 30
+	SetTextColor 0 255 0
+    SetBorderColor 0 255 0
+	
+Show
+    SocketGroup GBR
+	SetFontSize 30
+	SetTextColor 0 255 0
+    SetBorderColor 0 255 0
+	
+Show
+    SocketGroup GRB
+	SetFontSize 30
+	SetTextColor 0 255 0
+    SetBorderColor 0 255 0
 
 Show
     LinkedSockets <= 3
