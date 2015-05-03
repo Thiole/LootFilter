@@ -404,7 +404,14 @@ Rarity Rare
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
-Show 
+Show
+	Class Belt Ring Amulet
+	Rarity Rare
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
+    SetBackgroundColor 0 0 0
+	
+	Show 
 Rarity Rare
 
 Show
