@@ -219,7 +219,6 @@ Show
     SetBackgroundColor 0 0 0
 
 Show
-Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
 	ItemLevel <= 10
@@ -383,7 +382,7 @@ Show
 Show
     BaseType "Terror Maul" "Vaal Rapier" "Imperial Staff" "Carnal Sceptre" "Imperial Bow" "Vaal Claw" "Thicket Bow" "Vaal Hatchet" "Royal Axe" "Nightmare Mace" "Vaal Blade" "Vaal Sceptre"
     Rarity Rare
-ItemLevel <= 70
+	ItemLevel <= 70
 	SetFontSize 30
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
@@ -418,9 +417,21 @@ Class Flask
 Quality > 5
 
 Show
+    SocketGroup RGB BGR
+	SetFontSize 30
+	SetTextColor 0 255 0
+    SetBorderColor 0 255 0
+	
+Show
 Class "Utility Flask"
 	SetFontSize 30
 
+Show
+    SocketGroup RGB BGR
+	SetFontSize 30
+	SetTextColor 0 255 0
+    SetBorderColor 0 255 0
+	
 Show
     BaseType "Gavel" "Rock Breaker" "Stone Hammer"
     Rarity Normal
@@ -441,41 +452,6 @@ Show
     SetBorderColor 255 255 255 
 	SetFontSize 30
 
-Show
-    SocketGroup RGB
-	SetFontSize 30
-	SetTextColor 0 255 0
-    SetBorderColor 0 255 0
-	
-Show
-    SocketGroup RBG
-	SetFontSize 30
-	SetTextColor 0 255 0
-    SetBorderColor 0 255 0
-	
-Show
-    SocketGroup BGR
-	SetFontSize 30
-	SetTextColor 0 255 0
-    SetBorderColor 0 255 0
-	
-Show
-    SocketGroup BRG
-	SetFontSize 30
-	SetTextColor 0 255 0
-    SetBorderColor 0 255 0
-	
-Show
-    SocketGroup GBR
-	SetFontSize 30
-	SetTextColor 0 255 0
-    SetBorderColor 0 255 0
-	
-Show
-    SocketGroup GRB
-	SetFontSize 30
-	SetTextColor 0 255 0
-    SetBorderColor 0 255 0
 
 Show
     LinkedSockets <= 3
