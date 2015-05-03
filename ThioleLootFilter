@@ -8,7 +8,8 @@ Show
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
     SetBackgroundColor 27 5 27 5 27 5
-#Shows better currency differently from lower currency for efficiency
+	
+#####Shows better currency differently from lower currency for efficiency
 ##### skill gems
 Show
     Class "Active Skill Gems" "Support Skill Gems"
@@ -17,16 +18,15 @@ Show
 	SetTextColor 0 200 200
 	SetBorderColor 0 200 200
 	
-
 Show
     Class "Active Skill Gems" "Support Skill Gems"
-	SetFontSize 27
+	SetFontSize 30
 	SetTextColor 0 200 200
 
 	################################ chance bases###############################
 Show
 	BaseType "Quicksilver Flask" "Prophecy Wand" "Leather Belt" "Occultist's Vestment" "Lapis Amulet" "Amber Amulet" "Agate Amulet" "Gavel" 
-    SetFontSize 27 
+    SetFontSize 30 
 	Rarity Normal
 	SetBorderColor 27 5 0 27 5
 
@@ -38,19 +38,17 @@ Show
     SetBorderColor 200 200 130
     SetBackgroundColor 0 0 0
 	SetFontSize 32
+	
 Show
     BaseType "Gemcutter's Prism" "Chaos Orb" "Orb of Fusing" "Orb of Alchemy"
     SetBorderColor 200 200 130
 	SetTextColor 200 200 130
 	SetFontSize 30
 
-
-
-
 Show
 	Class Currency
 	SetTextColor 200 200 130
-	SetFontSize 27
+	SetFontSize 30
 
 	#############################
     
@@ -238,9 +236,9 @@ Show
     Rarity Rare
 	ItemLevel <= 7
 	DropLevel >= 1
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -248,9 +246,9 @@ Show
     Rarity Rare
 	ItemLevel <= 10
 	DropLevel > 5
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -258,9 +256,9 @@ Show
     Rarity Rare
 	ItemLevel <= 14
 	DropLevel > 7
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -268,9 +266,9 @@ Show
     Rarity Rare
 	ItemLevel <= 17
 	DropLevel > 10
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -278,9 +276,9 @@ Show
     Rarity Rare
 	ItemLevel <= 21
 	DropLevel > 15
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -288,9 +286,9 @@ Show
     Rarity Rare
 	ItemLevel <= 25
 	DropLevel > 20
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -298,9 +296,9 @@ Show
     Rarity Rare
 	ItemLevel <= 27
 	DropLevel > 21
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 	
 Show
@@ -308,9 +306,9 @@ Show
     Rarity Rare
 	ItemLevel <= 30
 	DropLevel > 25
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 
@@ -319,9 +317,9 @@ Show
     Rarity Rare
 	ItemLevel <= 34
 	DropLevel > 28
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -329,9 +327,9 @@ Show
     Rarity Rare
 	ItemLevel <= 39
 	DropLevel > 33
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 	
 Show
@@ -339,9 +337,9 @@ Show
     Rarity Rare
 	ItemLevel <= 45
 	DropLevel > 39
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -349,9 +347,9 @@ Show
     Rarity Rare
 	ItemLevel <= 50
 	DropLevel > 44
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -359,9 +357,9 @@ Show
     Rarity Rare
 	ItemLevel <= 56
 	DropLevel > 49
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -369,9 +367,9 @@ Show
     Rarity Rare
 	ItemLevel <= 60
 	DropLevel > 53
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -379,9 +377,9 @@ Show
     Rarity Rare
 	ItemLevel <= 65
 	DropLevel > 59
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
@@ -389,18 +387,18 @@ Show
     Rarity Rare
 	ItemLevel <= 70
 	DropLevel > 64
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
 	DropLevel > 68
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 
@@ -408,69 +406,78 @@ Show
     BaseType "Terror Maul" "Vaal Rapier" "Imperial Staff" "Carnal Sceptre" "Imperial Bow" "Vaal Claw" "Thicket Bow" "Vaal Hatchet" "Royal Axe" "Nightmare Mace" "Vaal Blade" "Vaal Sceptre"
     Rarity Rare
 	ItemLevel <= 70
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 
 Show
     BaseType "Sai" "Demon Fangs" "Moon Staff" "Ancient Needle" "Moon Claw" "Ancient Blade" "Dragon Mace" "Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
     Rarity Rare
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
 Show
-Class Amulets Rings Belt
-Rarity Rare
-	SetFontSize 27 
-    SetTextColor 27 5 27 5 0
-    SetBorderColor 27 5 27 5 0
+	Class Amulets Rings Belt
+	Rarity Rare
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
 
+
 	
-	Show 
+Show 
 	Rarity Rare
-	SetFontSize 20
-	
+	SetFontSize 27
+
+
 Show
 	Class Flask 
 	Quality > 13
-    SetBorderColor 27 5 27 5 27 5
+	SetFontSize 25
+    SetBorderColor 255 255 255
 	
 Show
 	Class Flask 
 	Quality > 5
+	SetFontSize 25
+
 
 	
 Show
     SocketGroup RGB BGR
-	SetFontSize 27 
+	SetFontSize 30 
 	SetTextColor 0 27 5 0
     SetBorderColor 0 27 5 0
 	
 Show
-Class "Utility Flask"
+	Class "Utility Flask"
 	SetFontSize 30
 
+
 Show
     SocketGroup RGB BGR
-	SetFontSize 27 
+	SetFontSize 30 
 	SetTextColor 0 27 5 0
     SetBorderColor 0 27 5 0
+
+
+
 Show
 	BaseType "Medium Life Flask"
 	ItemLevel < 19
-	SetFontSize 27 
+	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
 
 	
 Show
     BaseType "Gavel" "Rock Breaker" "Stone Hammer"
     Rarity Normal
-		SetFontSize 30
+		SetFontSize 25
 		
 
 	
@@ -478,24 +485,27 @@ Show
     BaseType "Gavel" "Rock Breaker" "Stone Hammer"
     Rarity Magic
     Quality > 15
-	SetFontSize 30
+	SetFontSize 25
+
+
 
 Show
     LinkedSockets >= 5
-    SetBorderColor 27 5 0 0 
+    SetBorderColor 255 0 0 
 	SetFontSize 30
 
 
 Show
     Sockets 6
-    SetBorderColor 27 5 27 5 27 5 
+    SetBorderColor 255 255 0
 	SetFontSize 30
 
 
 	
 Show
-    LinkedSockets <= 3
+    LinkedSockets >= 3
 	ItemLevel < 20
+
 
 
 
@@ -506,61 +516,62 @@ Show
 ####fixed
 
 
+
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 7
 	DropLevel >= 1
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 23
 
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 10
 	DropLevel > 5
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 23
 
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 14
 	DropLevel > 7
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 23
 
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 17
 	DropLevel > 10
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 21
 	DropLevel > 15
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 23
 
 Show
     Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 27 
 	DropLevel > 20
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 Show
     Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 27
 	DropLevel > 21
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 	
 Show
     Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 30
 	DropLevel > 27 
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 
 Show
@@ -568,49 +579,49 @@ Show
 	ItemLevel <= 34
 	DropLevel > 28
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 Show
     Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 39
 	DropLevel > 33
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 	
 Show
     Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 45
 	DropLevel > 39
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 Show
     Class  "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 50
 	DropLevel > 44
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 Show
     Class  "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 56
 	DropLevel > 49
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 Show
     Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 60
 	DropLevel > 53
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 Show
     Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	ItemLevel <= 65
 	DropLevel > 59
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 
 Show
@@ -618,28 +629,28 @@ Show
 	ItemLevel <= 70
 	DropLevel > 64
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 
 Show
     Class "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
 	DropLevel > 68
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 
 
 
 Show
     BaseType "Terror Maul" "Vaal Rapier" "Imperial Staff" "Carnal Sceptre" "Imperial Bow" "Vaal Claw" "Thicket Bow" "Vaal Hatchet" "Royal Axe" "Nightmare Mace" "Vaal Blade" "Vaal Sceptre"
 	Rarity Normal
-	SetFontSize 27 
+	SetFontSize 30 
 	ItemLevel <= 70
 
 
 Show
     BaseType "Sai" "Demon Fangs" "Moon Staff" "Ancient Needle" "Moon Claw" "Ancient Blade" "Dragon Mace" "Maraketh Bow" "Tiger Hook" "Sacrament Wand" "Ghost Axe" "Demon Sceptre" "Morning Star" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
 	
-	SetFontSize 27 
+	SetFontSize 30 
 
 
 
@@ -652,15 +663,18 @@ ItemLevel < 70
 Show
 Class Boots Gloves Helmet Shield Belt
 Rarity Magic
+SetFontSize 25
 ItemLevel < 20
 
 
 Show
 Class Quiver
+SetFontSize 25
 ItemLevel < 15
 ##################MAP BASED HIGHLIGHTING
 
 ###### 
+
 Show
 Class  "Maps"
 	ItemLevel < 67
@@ -735,7 +749,6 @@ Show
 	
 Show
 	Class  "Maps"
-
 	DropLevel >= 74
 	SetTextColor 0 0 0
     SetBorderColor 0 0 0
@@ -752,64 +765,70 @@ SetTextColor 0 0 0
 Show
 BaseType "Small Life Flask"
 ItemLevel < 12
-	SetFontSize 27 
+	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
 	
 Show
 	BaseType "Medium Life Flask"
 	ItemLevel < 19
-	SetFontSize 27 
+	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
 
 	Show
-BaseType "Large Life Flask"
-ItemLevel < 20
-	SetFontSize 27 
+	BaseType "Large Life Flask"
+	ItemLevel < 20
+	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
 
 	Show
 BaseType "Greater Life Flask"
 	ItemLevel < 24
-    	SetFontSize 27 
+    	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
 
 	Show
 	BaseType "Grand Life Flask"
 	ItemLevel < 30
-	SetFontSize 27 
+	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
 
 Show
 	BaseType "Giant Life Flask"
 	ItemLevel < 38
-	SetFontSize 27 
+	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
+
 Show
-BaseType "Colossal Life Flask"
-ItemLevel < 41
-	SetFontSize 27 
+	BaseType "Colossal Life Flask"
+	ItemLevel < 41
+	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
+
 Show
 BaseType "Sacred Life Flask"
 ItemLevel < 49
-   	SetFontSize 27 
+   	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
+
 Show
 BaseType "Hallowed Life Flask"
 ItemLevel < 58
-    	SetFontSize 27 
+    	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
+
 Show
 BaseType "Sanctified Life Flask"
  	ItemLevel < 70
-	SetFontSize 27 
+	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
 
 	
 Show
-BaseType "Divine Life Flask" "Eternal Life Flask"
-	SetFontSize 27 
+	BaseType "Divine Life Flask" "Eternal Life Flask"
+	SetFontSize 30 
     SetBorderColor 27 5 27 5 27 5 
 	
+
 Hide 
+
 
