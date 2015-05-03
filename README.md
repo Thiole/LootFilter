@@ -1,6 +1,8 @@
 # LootFilter
-Loot filter for PoE Beta 2.0
 Please message me ingame @Thiole with feedback or questions
+
+Loot filter for PoE Beta 2.0
+
 HOW TO ADD TO Path Of Exile
 
 1) Save the desired file to %My Documents%/My Games/Path of Exile
