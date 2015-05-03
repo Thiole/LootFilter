@@ -1,7 +1,6 @@
 
 ###BETA VERSION 1.2
 
-
 #------------------------------------------------------------------
 #Fishing Rods First OFC
 Show
@@ -15,14 +14,14 @@ Show
     Class "Active Skill Gems" "Support Skill Gems"
 	Quality >= 1
 	SetFontSize 25
-	SetTextColor 255 100 0
-	SetBorderColor 255 100 0
+	SetTextColor 0 200 200
+	SetBorderColor 0 200 200
 	
 
 Show
     Class "Active Skill Gems" "Support Skill Gems"
 	SetFontSize 23
-	SetTextColor 255 100 0
+	SetTextColor 0 200 200
 
 	################################ chance bases###############################
 Show
