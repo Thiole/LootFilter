@@ -234,19 +234,9 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 7
+	ItemLevel <= 9
 	DropLevel >= 1
 	SetFontSize 30
-    SetTextColor 255 255 0
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
-
-Show
-    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
-    Rarity Rare
-	ItemLevel <= 10
-	DropLevel > 5
-	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 0 0
@@ -264,7 +254,7 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 17
+	ItemLevel <= 18
 	DropLevel > 10
 	SetFontSize 30 
     SetTextColor 255 255 0
@@ -274,8 +264,8 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 21
-	DropLevel > 15
+	ItemLevel <= 24
+	DropLevel > 14
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
@@ -284,7 +274,7 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 25
+	ItemLevel <= 28
 	DropLevel > 20
 	SetFontSize 30 
     SetTextColor 255 255 0
@@ -294,29 +284,8 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 27
-	DropLevel > 21
-	SetFontSize 30 
-    SetTextColor 255 255 0
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
-	
-Show
-    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
-    Rarity Rare
-	ItemLevel <= 30
-	DropLevel > 25
-	SetFontSize 30 
-    SetTextColor 255 255 0
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
-
-
-Show
-    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
-    Rarity Rare
 	ItemLevel <= 34
-	DropLevel > 28
+	DropLevel > 26
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
@@ -325,8 +294,8 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 39
-	DropLevel > 33
+	ItemLevel <= 38
+	DropLevel > 30
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
@@ -335,8 +304,19 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 45
-	DropLevel > 39
+	ItemLevel <= 44
+	DropLevel > 35
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
+    SetBackgroundColor 0 0 0
+
+
+Show
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+    Rarity Rare
+	ItemLevel <= 48
+	DropLevel > 38
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
@@ -345,8 +325,18 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 50
-	DropLevel > 44
+	ItemLevel <= 54
+	DropLevel > 46
+	SetFontSize 30 
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
+    SetBackgroundColor 0 0 0
+	
+Show
+    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+    Rarity Rare
+	ItemLevel <= 58
+	DropLevel > 50
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
@@ -355,8 +345,8 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 56
-	DropLevel > 49
+	ItemLevel <= 64
+	DropLevel > 55
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
@@ -365,8 +355,8 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 60
-	DropLevel > 53
+	ItemLevel <= 68
+	DropLevel > 60
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
@@ -375,18 +365,8 @@ Show
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
     Rarity Rare
-	ItemLevel <= 65
-	DropLevel > 59
-	SetFontSize 30 
-    SetTextColor 255 255 0
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
-
-Show
-    Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
-    Rarity Rare
-	ItemLevel <= 70
-	DropLevel > 64
+	ItemLevel <= 73
+	DropLevel > 65
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
