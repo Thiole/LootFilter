@@ -248,7 +248,7 @@ Show
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 0 100 0 200
 
 Show
     BaseType "Terror Maul" "Vaal Rapier" "Imperial Staff" "Carnal Sceptre" "Imperial Bow" "Vaal Claw" "Thicket Bow" "Vaal Hatchet" "Royal Axe" "Nightmare Mace" "Vaal Blade" "Vaal Sceptre"
@@ -257,7 +257,7 @@ Show
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
-    SetBackgroundColor 0 100 0 200
+    SetBackgroundColor 100 40 40	
 #####
 Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Two Hand Axes" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
@@ -276,7 +276,7 @@ Show
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0 
+    SetBackgroundColor 0 0 0
 	
 
 	
@@ -289,7 +289,7 @@ Show
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
-    SetBackgroundColor 0 100 0 200
+    SetBackgroundColor 0 0 0
 	
 	Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Two Hand Axes" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
@@ -298,7 +298,7 @@ Show
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 100 40 40
 	
 	
 	########## 60-65 bases
@@ -310,7 +310,7 @@ Show
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
-    SetBackgroundColor 0 100 0 200
+    SetBackgroundColor 0 0 0
 	
 	Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Two Hand Axes" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
@@ -320,7 +320,7 @@ Show
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0 
+    SetBackgroundColor 100 40 40
 	
 	##### 55-60 bases
 	
@@ -332,7 +332,7 @@ Show
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
-    SetBackgroundColor 0 100 0 200
+    SetBackgroundColor 0 0 0
 	
 	Show
     Class "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" "Quiver" "Bow" "Staves" "Two Hand Axes" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
@@ -342,7 +342,7 @@ Show
 	SetFontSize 30 
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 100 40 40
 	
 	## 50-55 bases
 Show
