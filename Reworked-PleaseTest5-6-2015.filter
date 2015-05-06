@@ -6,7 +6,7 @@ Show
     Class Fishing Rods
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 27 5 27 5 27 5
+    SetBackgroundColor 255 255 255
 	
 #####Shows better currency differently from lower currency for efficiency
 ##### skill gems
@@ -576,9 +576,9 @@ Show
 	Show 
 	Rarity Rare
 	SetFontSize 27
-	SetTextColor 255 255 0 35 
+	SetTextColor 255 255 0 170
     SetBorderColor 255 255 0
-    SetBackgroundColor 100 40 40 35
+    SetBackgroundColor 100 40 40 200
 	
 #### Flask Highlighting
 
