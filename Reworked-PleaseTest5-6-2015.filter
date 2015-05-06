@@ -1,5 +1,5 @@
 ###BETA VERSION 1.0.0.1-8
-Please test and let me know via pm on reddit /u/brute_force or @Thiole in game if i am online
+#Please test and let me know via pm on reddit /u/brute_force or @Thiole in game if i am online
 
 #------------------------------------------------------------------
 #Fishing Rods First OFC
@@ -88,7 +88,7 @@ Show
     SetBackgroundColor 0 0 0
 
 Show
-	Class Staff
+	Class "Staves"
 	Rarity Unique
 	DropLevel = 48
     SetTextColor 175 100 40
