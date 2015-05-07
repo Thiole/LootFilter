@@ -1,4 +1,4 @@
-###BETA VERSION 1.0.0.1-8
+###BETA VERSION 1.0.0.4
 #Please test and let me know via pm on reddit /u/brute_force or @Thiole in game if i am online
 
 #------------------------------------------------------------------
@@ -643,6 +643,9 @@ Show
 Show
     LinkedSockets >= 3
 	ItemLevel < 20	
+		
+Show
+    LinkedSockets >= 4
 		
 	########################### Normal Show Rules
 Show
