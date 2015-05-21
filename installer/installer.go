@@ -25,7 +25,7 @@ func main() {
 	fmt.Println("Found PoE folder at: " + path)
 
 	fmt.Println("Reticulating splines")
-	filterName := "ThioleLootFilter"
+	filterName := "ThioleLootFilter.filter"
 	filterURL := "https://raw.githubusercontent.com/icbat/LootFilter/master/" + filterName
 	fmt.Println("Grabbing " + filterName + " from: " + filterURL)
 	downloadTo(filterURL, path+"/"+filterName)
