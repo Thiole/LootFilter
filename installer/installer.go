@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"io/ioutil"
 	"net/http"
@@ -25,7 +26,7 @@ func main() {
 	fmt.Println("Found PoE folder at: " + path)
 
 	fmt.Println("Reticulating splines")
-	filterName := "ThioleLootFilter"
+	filterName := "ThioleLootFilter.filter"
 	filterURL := "https://raw.githubusercontent.com/icbat/LootFilter/master/" + filterName
 	fmt.Println("Grabbing " + filterName + " from: " + filterURL)
 	downloadTo(filterURL, path+"/"+filterName)
@@ -40,7 +41,11 @@ func main() {
 	4) Esc > Options
 	5) GO to UI tab, at the bottom select the filter, once it says "Filter loaded successfully" no restart required, you are good to go
 	6) Any updates to the filter can be reloaded without restarting the game by clicking the "reload" button in options
-		`)
+
+
+	Press any key to exit!`)
+	reader := bufio.NewReader(os.Stdin)
+	reader.ReadString('\n')
 }
 
 func pathExists(path string) bool {
