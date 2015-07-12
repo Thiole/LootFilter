@@ -195,11 +195,38 @@ Show
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
 
+# While leveling, Jewels are pretty interesting. At some point, they become
+# less so...
+
 Show
-    Class Jewel
-    SetBorderColor 255 0 255
-    SetFontSize 34
-	
+	Class Jewel
+	Rarity Rare
+	ItemLevel > 66
+	SetBorderColor 255 0 255 180
+	SetTextColor 255 255 0 220
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 32
+
+# If you're farming for the first time on your old STD character,
+# you might want to change this to Show:
+Hide
+	Class Jewel
+	Rarity Magic Normal
+	ItemLevel > 66
+
+Show
+	Class Jewel
+	Rarity Rare
+	SetBorderColor 255 0 255
+	SetTextColor 255 255 0
+	SetFontSize 34
+
+Show
+	Class Jewel
+	ItemLevel <= 66
+	SetBorderColor 255 0 255
+	SetFontSize 34
+
 ################### LEVEL BASED UNIQUE HIGHLIGHTING #############################
 Show
     BaseType "Steelscale Gauntlets" "Prophet Crown" "Leather Cap" "Pine Buckler"
