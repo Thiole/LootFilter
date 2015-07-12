@@ -348,26 +348,6 @@ Show
 	SetBorderColor 255 255 0
 	SetBackgroundColor 100 40 40 200
 	
-#### Flask Highlighting
-
-Show
-	Class Flask 
-	Quality > 13
-	SetFontSize 34
-	SetBorderColor 255 0 0
-	
-Show
-	Class Flask 
-	Quality >= 1
-	SetFontSize 34	
-	SetBorderColor 255 255 200 200
-
-Show
-	Class "Utility Flask"
-	SetFontSize 32
-	SetBackgroundColor 0 0 0 200
-	SetBorderColor 0 0 255 200
-
 #########Chisel Recipe Highlighting
 #	
 #Show
@@ -420,96 +400,128 @@ Show
 Show
 Class "Map Fragments" "Maps"
 
+#### Flask Highlighting
+
+Show
+	Class Flask 
+	Quality > 13
+	SetFontSize 34
+	SetBorderColor 255 0 0
+	
+Show
+	Class Flask 
+	Quality >= 1
+	SetFontSize 34	
+	SetBorderColor 255 255 200
+
+Show
+	Class "Utility Flask"
+	SetFontSize 32
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 0 0 255 200
 
 ##### Flask based level visibility
 
 ### Small Flask to ~ End of A1N, REQ level 0
 Show
-BaseType "Small Life Flask" "Small Mana Flask"
-ItemLevel < 12
-	SetFontSize 30 
-    SetBorderColor 255 255 255
-	
-	
+	BaseType "Small Life Flask" "Small Mana Flask"
+	ItemLevel < 12
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
 #### Medium Ends midway through a2, medium starts dropping around the same time as large, REQ LEVEL 4
 
 Show
 	BaseType "Medium Life Flask" "Medium Mana Flask"
 	ItemLevel < 19
-	SetFontSize 30 
-    SetBorderColor 255 255 255
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 
 #### Large Ends around the same time, these make mediums basically obsolete, i only keep mediums on because	of 3x vendor recipe for another large REQ LEVEL 14
-	
-	Show
+
+Show
 	BaseType "Large Life Flask" "Large Mana Flask"
 	ItemLevel < 20
-	SetFontSize 30 
-    SetBorderColor 255 255 255
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 
-	
 ####	Greater ends near the end of a2/beginning of a3  REQ LEVEL 18
-	Show
+Show
 	BaseType "Greater Life Flask" "Greater Mana Flask"
 	ItemLevel < 24
-    SetFontSize 30 
-    SetBorderColor 255 255 255
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 
-	
-	#### Hides Midway through A3N  REQ LEVEL 26
-	Show
+#### Hides Midway through A3N  REQ LEVEL 26
+Show
 	BaseType "Grand Life Flask" "Grand Mana Flask"
 	ItemLevel < 34
-	SetFontSize 30 
-    SetBorderColor 255 255 255
-	
-	####Hides Near the end of Normal difficulty REQ LEVEL 34
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 
+####Hides Near the end of Normal difficulty REQ LEVEL 34
 Show
 	BaseType "Giant Life Flask" "Giant Mana Flask"
 	ItemLevel < 38
-	SetFontSize 30 
-    SetBorderColor 255 255 255
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 
-	####Hides somewhere at the start of cruel REQ LEVEL 37
+####Hides somewhere at the start of cruel REQ LEVEL 37
 Show
 	BaseType "Colossal Life Flask" "Colossal Mana Flask"
 	ItemLevel < 45
-	SetFontSize 30 
-    SetBorderColor 255 255 255
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 
-	####### Hides Midway through cruel REQ LEVEL 45
-	
+####### Hides Midway through cruel REQ LEVEL 45
 Show
 	BaseType "Sacred Life Flask" "Sacred Mana Flask"
 	ItemLevel < 49
-   	SetFontSize 30 
-    SetBorderColor 255 255 255
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 	
 ### REQ LEVEL 53
-
 Show
 	BaseType "Hallowed Life Flask" "Hallowed Mana Flask"
 	ItemLevel < 58
-    SetFontSize 30 
-    SetBorderColor 255 255 255
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 
 ##### REQ LEVEL 60
-	
 Show
-BaseType "Sanctified Life Flask" "Sanctified Mana Flask"
+	BaseType "Sanctified Life Flask" "Sanctified Mana Flask"
  	ItemLevel < 70
-	SetFontSize 30 
-    SetBorderColor 255 255 255
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 
 ### REQ LEVEL 65 and 70 Respectively 2 best bases in game, always show 
-	
 Show
 	BaseType "Divine Life Flask" "Eternal Life Flask" "Divine Mana Flask" "Eternal Mana Flask"
-	SetFontSize 30 
-    SetBorderColor 255 255 255
+	SetFontSize 28 
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 	
 Hide
 	SetFontSize 20
 	SetBackgroundColor 0 0 0 50
-
