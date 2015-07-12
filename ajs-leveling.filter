@@ -217,30 +217,45 @@ Show
 	SetTextColor 175 100 40
 	SetBackgroundColor 0 0 0
 	
-	
-	
-	
-###########RARES#####
-
-#Global Rules
+####### Socket-based rares
 
 Show
-	Class Amulets Rings Belt
+	LinkedSockets >= 5
 	Rarity Rare
-	SetFontSize 30 
-    SetTextColor 255 255 0
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 60 0 200
+	SetFontSize 34
+	# Rare yellow text, red border, solid black background
+	SetBorderColor 255 0 0
+	SetTextColor 255 255 0
+	SetBackgroundColor 0 0 0
+
+Show
+	Sockets 6
+	Rarity Rare
+	SetFontSize 34
+	# Rare yellow text, red border, solid black background
+	SetBorderColor 255 0 0
+	SetTextColor 255 255 0
+	SetBackgroundColor 0 0 0
+
+Show
+	LinkedSockets >= 4
+	Rarity Rare
+	ItemLevel <= 40
+	SetFontSize 30
+	SetBorderColor 255 0 0 200
+	SetTextColor 255 255 0 200
+	SetBackgroundColor 0 0 0 200
+
+###########RARES#####
+
+###### RGB Highlighting
+
+Show
+    SocketGroup RGB BGR
+	SetFontSize 34 
+	SetTextColor 0 255 0
+	SetBorderColor 0 255 0
 	
-#Show
-#    BaseType "Sai" "Moon Staff" "Maraketh Bow" "Tiger Hook" "Morning Star" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
-#    Rarity Rare
-#	SetFontSize 30 
-#    SetTextColor 255 255 0
-#    SetBorderColor 255 255 0
-#    SetBackgroundColor 0 0 0
-
-
 ##Level Scaling Rules
 
 Show
@@ -248,7 +263,7 @@ Show
 	Rarity Rare
 	ItemLevel >= 75
 	SetFontSize 32
-	SetTextColor 255 255 0 200
+	SetTextColor 255 255 0
 	SetBorderColor 255 200 200
 	SetBackgroundColor 0 0 0
 
@@ -326,14 +341,6 @@ Show
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 0 0 255 200
 
-###### RGB Highlighting
-
-Show
-    SocketGroup RGB BGR
-	SetFontSize 34 
-	SetTextColor 0 255 0
-	SetBorderColor 0 255 0
-	
 #########Chisel Recipe Highlighting
 #	
 #Show
@@ -370,18 +377,16 @@ Show
 	Rarity Magic
 	ItemLevel <= 20
 	SetFontSize 25
-	SetTextColor 0 255 0 200
-	SetBorderColor 0 255 0 200
-	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 255 255 220
+	SetBackgroundColor 0 0 0 220
 
 Show
 	Class "Amulets" "Rings" "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" 
 	Rarity Normal
 	ItemLevel <= 5
 	SetFontSize 22
-	SetTextColor 0 255 0 150
-	SetBorderColor 0 255 0 150
-	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
 
 #### Cant get map based level highlighting to work, DropLevel does not work for maps
 
