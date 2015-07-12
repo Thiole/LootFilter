@@ -1,0 +1,534 @@
+###BETA VERSION 1.0.0.1-8
+#Please test and let me know via pm on reddit /u/aaronsherman or @Zinfindelta in game if I am online
+#
+# This is a first draft of a pure leveling version of the
+# original ThioleLootFilter. It's meant for people who aren't
+# worrying around farming for chancable base items and for
+# special vendor recipies that get you mapping currency. It's
+# really for shorter duration leagues and new players and people
+# who just really don't care about the economy as much.
+
+#------------------------------------------------------------------
+#Fishing Rods First OFC
+Show
+    Class Fishing Rods
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetBackgroundColor 255 255 255
+	
+Show 
+	Class "Quest Items"
+	
+#####Shows better currency differently from lower currency for efficiency
+##### skill gems
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+	Quality >= 1
+	SetFontSize 34
+	SetTextColor 0 200 200
+	SetBorderColor 0 200 200
+	
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+	SetFontSize 32
+	SetTextColor 0 200 200
+
+#	################################ chance bases###############################
+#Show
+#	BaseType "Lapis Amulet" "Amber Amulet" 
+#	SetFontSize 25
+#	SetBorderColor 255 0 255
+#
+#Show 
+#	SocketGroup RGB BGR
+#	SetFontSize 30 
+#    SetBorderColor 0 255 0
+#
+##Chance Bases
+#Show
+#	BaseType "Prophecy Wand" "Leather Belt" "Occultist's Vestment" "Agate Amulet" "Gavel" 
+#    SetFontSize 30 
+#	Rarity Normal
+#	SetBorderColor 255 0 255
+
+
+################currency highlighting
+Show
+    Class "Divination"
+	SetTextColor 200 200 130 
+    SetBorderColor 200 200 130
+    SetBackgroundColor 0 0 0 
+	SetFontSize 34
+Show
+	BaseType "Mirror of Kalandra" "Exalted Orb" "Divine Orb" "Orb of Regret" "Eternal Orb" "Regal Orb" 
+	SetTextColor 200 200 130 
+	SetBorderColor 200 200 130
+	SetBackgroundColor 0 0 0 
+	SetFontSize 36
+	
+Show
+	BaseType "Gemcutter's Prism" "Chaos Orb" "Orb of Fusing" "Orb of Alchemy" "Chromatic Orb" "Cartographer's Chisel"
+	SetBorderColor 200 200 130
+	SetTextColor 200 200 130
+	SetFontSize 32
+
+Show
+	Class Currency
+	BaseType "Scroll of Wisdom" "Portal Scroll"
+	SetTextColor 200 200 130 150
+	SetFontSize 26
+	SetBackgroundColor 0 0 0 150
+
+Show
+	Class Currency
+	SetTextColor 200 200 130
+	SetFontSize 28
+	SetBackgroundColor 0 0 0 
+	#############################
+    
+#unique Weapon slot start
+
+#staves / wands
+
+
+Show
+    BaseType "Judgement Staff"  "Long Staff" "Vile Staff" "Imperial Staff"  "Prophecy Wand"  "Spiraled Wand"
+    Rarity Unique
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+Show
+	Class "Staves"
+	Rarity Unique
+	DropLevel = 48
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+	
+#Claws / Daggers
+
+Show
+    BaseType "Slaughter Knife" "Imperial Skean"  "Thresher Claw"
+    Rarity Unique
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+#Maces / Sceptres / Mauls / Axes
+
+Show
+    BaseType "Void Sceptre" "Siege Axe" "Gavel"
+    Rarity Unique
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+#Swords
+
+
+
+#Bows
+Show
+    BaseType "Spine Bow" "Imperial Bow"
+    Rarity Unique
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+#Body Armor 
+Show
+    BaseType "Simple Robe" "Full Wyrmscale" "Varnished Coat" "Occultist's Vestment" "Glorious Plate" "Sacrificial Garb"
+    Rarity Unique 
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+#boots
+Show
+    BaseType "Conjurer Boots"
+    Rarity Unique
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+#gloves 
+Show
+    BaseType "Vaal Gauntlets" "Strapped Mitts" "Conjurer Gloves" "Deerskin Gloves" "Murder Mitts"
+    Rarity Unique
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+
+#helm
+Show
+    BaseType "Sinner Tricorne" "Ursine Pelt" "Ezomyte Burgonet" "Great Crown"
+    Rarity Unique
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+#######shields
+
+Show
+    BaseType "Champion Kite Shield" "Archon Kite Shield" "Titanium Spirit Shield" "Mosaic Kite Shield" "Branded Kite Shield"
+    Rarity Unique 
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+#######Amulet / Ring/ Belt
+
+
+Show
+    BaseType "Amber Amulet" "Onyx Amulet" "Agate Amulet" "Chain Belt"
+    Rarity Unique
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+Show
+    BaseType "Gold Ring" "Sapphire Ring" "Prismatic Ring" "Amethyst Ring" "Paua Ring"
+    Rarity Unique 
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+#Utility
+Show
+    Class Jewel "Utility Flask"
+    Rarity Unique
+    SetTextColor 175 100 40
+    SetBorderColor 175 100 40
+    SetBackgroundColor 0 0 0
+
+# While leveling, Jewels are pretty interesting. At some point, they become
+# less so...
+
+Show
+	Class Jewel
+	Rarity Rare
+	ItemLevel > 66
+	SetBorderColor 255 0 255 180
+	SetTextColor 255 255 0 220
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 32
+
+# If you're farming for the first time on your old STD character,
+# you might want to change this to Show:
+Hide
+	Class Jewel
+	Rarity Magic Normal
+	ItemLevel > 66
+
+Show
+	Class Jewel
+	Rarity Rare
+	SetBorderColor 255 0 255
+	SetTextColor 255 255 0
+	SetFontSize 34
+
+Show
+	Class Jewel
+	ItemLevel <= 66
+	SetBorderColor 255 0 255
+	SetFontSize 34
+
+################### LEVEL BASED UNIQUE HIGHLIGHTING #############################
+Show
+    BaseType "Steelscale Gauntlets" "Prophet Crown" "Leather Cap" "Pine Buckler"
+    Rarity Unique
+	ItemLevel < 70
+    SetTextColor 175 100 40
+    SetBorderColor 0 0 0
+    SetBackgroundColor 175 100 40
+
+	
+	####
+	Show
+	Rarity Unique
+	SetFontSize 30
+	SetTextColor 175 100 40
+	SetBackgroundColor 0 0 0
+	
+####### Socket-based rares
+
+Show
+	LinkedSockets >= 5
+	Rarity Rare
+	SetFontSize 34
+	# Rare yellow text, red border, solid black background
+	SetBorderColor 255 0 0
+	SetTextColor 255 255 0
+	SetBackgroundColor 0 0 0
+
+Show
+	Sockets 6
+	Rarity Rare
+	SetFontSize 34
+	# Rare yellow text, red border, solid black background
+	SetBorderColor 255 0 0
+	SetTextColor 255 255 0
+	SetBackgroundColor 0 0 0
+
+Show
+	LinkedSockets >= 4
+	Rarity Rare
+	ItemLevel <= 40
+	SetFontSize 30
+	SetBorderColor 255 0 0 200
+	SetTextColor 255 255 0 200
+	SetBackgroundColor 0 0 0 200
+
+###########RARES#####
+
+###### RGB Highlighting
+
+Show
+    SocketGroup RGB BGR
+	SetFontSize 34 
+	SetTextColor 0 255 0
+	SetBorderColor 0 255 0
+	
+##Level Scaling Rules
+
+Show
+	Class "Amulets" "Rings" "Belts"
+	Rarity Rare
+	ItemLevel >= 75
+	SetFontSize 32
+	SetTextColor 255 255 0
+	SetBorderColor 255 200 200
+	SetBackgroundColor 0 0 0
+
+Show
+	Class "Amulets" "Rings" "Belts"
+	Rarity Rare
+	ItemLevel < 75
+	ItemLevel >= 60
+	SetFontSize 32
+	SetTextColor 255 255 0
+	SetBorderColor 255 255 200
+	SetBackgroundColor 0 0 0
+
+Show
+	Class "Amulets" "Rings" "Belts"
+	Rarity Rare
+	ItemLevel < 60
+	SetFontSize 32
+	SetTextColor 255 255 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 0 0 0
+
+Show
+	Class "Amulets" "Rings" "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" 
+	Rarity Rare
+	ItemLevel >= 75
+	SetFontSize 32
+	SetTextColor 255 255 0 200
+	SetBorderColor 255 200 200 200
+	SetBackgroundColor 0 0 0 200
+
+Show
+	Class "Amulets" "Rings" "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" 
+	Rarity Rare
+	ItemLevel < 75
+	ItemLevel >= 60
+	SetFontSize 32
+	SetTextColor 255 255 0 200
+	SetBorderColor 255 255 200 200
+	SetBackgroundColor 0 0 0 200
+
+Show
+	Class "Amulets" "Rings" "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" 
+	Rarity Rare
+	ItemLevel < 60
+	SetFontSize 32
+	SetTextColor 255 255 0 200
+	SetBorderColor 0 0 0 200
+	SetBackgroundColor 0 0 0 200
+
+Show 
+	Rarity Rare
+	SetFontSize 27
+	SetTextColor 255 255 0 170
+	SetBorderColor 255 255 0
+	SetBackgroundColor 100 40 40 200
+	
+#########Chisel Recipe Highlighting
+#	
+#Show
+#    BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+#    Rarity Normal
+#	SetFontSize 25
+#    SetBorderColor 0 0 255		
+#Show
+#    BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+#    Rarity Magic
+#    Quality > 15
+#	SetFontSize 25
+#	SetBorderColor 0 0 255
+	
+####### 6S/5L
+
+Show
+	LinkedSockets >= 5
+	SetBorderColor 255 0 0 
+	SetFontSize 34
+
+Show
+	Sockets 6
+	SetBorderColor 255 0 0
+	SetFontSize 34
+		
+Show
+	LinkedSockets >= 3
+	ItemLevel < 20	
+		
+# Show everything at a low enough level for it to matter
+Show
+	Class "Amulets" "Rings" "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" 
+	Rarity Magic
+	ItemLevel <= 20
+	SetFontSize 25
+	SetTextColor 255 255 255 220
+	SetBackgroundColor 0 0 0 220
+
+Show
+	Class "Amulets" "Rings" "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" 
+	Rarity Normal
+	ItemLevel <= 5
+	SetFontSize 22
+	SetTextColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+#### Cant get map based level highlighting to work, DropLevel does not work for maps
+
+Show
+Class "Map Fragments" "Maps"
+
+#### Flask Highlighting
+
+Show
+	Class Flask 
+	Quality > 13
+	SetFontSize 34
+	SetBorderColor 255 0 0
+	
+Show
+	Class Flask 
+	Quality >= 1
+	SetFontSize 34	
+	SetBorderColor 255 255 200
+
+Show
+	Class "Utility Flask"
+	SetFontSize 32
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 0 0 255 200
+
+##### Flask based level visibility
+
+### Small Flask to ~ End of A1N, REQ level 0
+Show
+	BaseType "Small Life Flask" "Small Mana Flask"
+	ItemLevel < 12
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+#### Medium Ends midway through a2, medium starts dropping around the same time as large, REQ LEVEL 4
+
+Show
+	BaseType "Medium Life Flask" "Medium Mana Flask"
+	ItemLevel < 19
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+#### Large Ends around the same time, these make mediums basically obsolete, i only keep mediums on because	of 3x vendor recipe for another large REQ LEVEL 14
+
+Show
+	BaseType "Large Life Flask" "Large Mana Flask"
+	ItemLevel < 20
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+####	Greater ends near the end of a2/beginning of a3  REQ LEVEL 18
+Show
+	BaseType "Greater Life Flask" "Greater Mana Flask"
+	ItemLevel < 24
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+#### Hides Midway through A3N  REQ LEVEL 26
+Show
+	BaseType "Grand Life Flask" "Grand Mana Flask"
+	ItemLevel < 34
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+####Hides Near the end of Normal difficulty REQ LEVEL 34
+Show
+	BaseType "Giant Life Flask" "Giant Mana Flask"
+	ItemLevel < 38
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+####Hides somewhere at the start of cruel REQ LEVEL 37
+Show
+	BaseType "Colossal Life Flask" "Colossal Mana Flask"
+	ItemLevel < 45
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+####### Hides Midway through cruel REQ LEVEL 45
+Show
+	BaseType "Sacred Life Flask" "Sacred Mana Flask"
+	ItemLevel < 49
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+	
+### REQ LEVEL 53
+Show
+	BaseType "Hallowed Life Flask" "Hallowed Mana Flask"
+	ItemLevel < 58
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+##### REQ LEVEL 60
+Show
+	BaseType "Sanctified Life Flask" "Sanctified Mana Flask"
+ 	ItemLevel < 70
+	SetFontSize 28
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+
+### REQ LEVEL 65 and 70 Respectively 2 best bases in game, always show 
+Show
+	BaseType "Divine Life Flask" "Eternal Life Flask" "Divine Mana Flask" "Eternal Mana Flask"
+	SetFontSize 28 
+	SetTextColor 255 255 255 180
+	SetBorderColor 255 255 255 180
+	SetBackgroundColor 0 0 0 180
+	
+Hide
+	SetFontSize 20
+	SetBackgroundColor 0 0 0 50
