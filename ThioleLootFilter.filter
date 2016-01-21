@@ -1,5 +1,23 @@
 ###BETA VERSION 1.0.0.1-8
 #Please test and let me know via pm on reddit /u/brute_force or @Thiole in game if i am online
+# Basic
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 
 #------------------------------------------------------------------
 #Fishing Rods First OFC
@@ -44,27 +62,39 @@ Show
 	Rarity Normal
 	SetBorderColor 255 0 255
 
+	
+	
+#################
+	#Worth Picking up always
+Show
+	Class "Divination"
+	BaseType  "The Dapper Prodigy" "House of Mirrors" "Avenger" "Time-Lost Relic" "Wealth and Power"  "The Wind" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The King's Heart" "The Queen" "The Artist" "The Last One Standing""The Dragon's Heart" "The Brittle Emperor" "The Fletcher" "Hunter's Reward" "The Last One Standing" "The Thaumaturgist"  "The Artist" "The Aesthete" "Bowyer's Dream"  "The Ethereal" "The Vast" "The Warlord" "The Offering" "The Body" "Birth of the Three" "The Sigil" "The Trial" "Death"  "Gift of the Gemling Queen"  "The Conduit""The Siren" "The One With All" "The Flora's Gift" "Encroaching Darkness" "Doedre's Madness" "Humility" "Three Faces in the Dark" "The Sun" "The Summoner"  "Vinia's Token" "The Cataclysm" "The Union""The Scarred Meadow" "Lucky Connections" "Jack in the Box" "The Inventor" "Hope" "The Hoarder" "Gemcutter's Promise" "The Explorer" "Coveted Possession" "Chaotic Disposition" "The Battle Born" "Anarchy's Price" "Assassin's Favour" "Audacity" "Blind Venture" "The Cartographer"  "The Gentleman" "The Mercenary" "The Fox""Grave Knowledge"  "The Doppelganger" "The Fox" "Hubris" "Scholar of the Seas" "The Tower" "Volatile Power" "The Traitor" "Lost Worlds"
+	SetFontSize 45
+	SetBorderColor 283 100 78
+	SetTextColor 283 100 78
 
-################currency highlighting
+	
 Show
     Class "Divination"
 	SetTextColor 200 200 130 
     SetBorderColor 200 200 130
     SetBackgroundColor 0 0 0 
 	SetFontSize 32
+	
+	################currency highlighting
 Show
     BaseType "Mirror of Kalandra" "Exalted Orb" "Divine Orb" "Orb of Regret" "Eternal Orb" "Regal Orb" 
 	SetTextColor 200 200 130 
     SetBorderColor 200 200 130
     SetBackgroundColor 0 0 0 
 	SetFontSize 32
-	
+	PlayAlertSound 6 250
 Show
     BaseType "Gemcutter's Prism" "Chaos Orb" "Orb of Fusing" "Orb of Alchemy"
     SetBorderColor 200 200 130
 	SetTextColor 200 200 130
 	SetFontSize 30
-
+	PlayAlertSound 6 250
 Show 
 	BaseType "Chromatic Orb"
     SetBorderColor 0 255 0
@@ -73,7 +103,7 @@ Show
 Show 
 	BaseType "Cartographer's Chisel"
     SetBorderColor 0 0 255
-		SetTextColor 200 200 130
+	SetTextColor 200 200 130
 Show
 	Class Currency
 	SetTextColor 200 200 130
@@ -92,6 +122,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
+	PlayAlertSound 1 250
 
 Show
 	Class "Staves"
@@ -100,7 +131,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
-	
+	PlayAlertSound 1 250
 #Claws / Daggers
 
 Show
@@ -109,7 +140,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
-
+	PlayAlertSound 1 250
 #Maces / Sceptres / Mauls / Axes
 
 Show
@@ -118,7 +149,8 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
-
+	PlayAlertSound 1 250
+	
 #Swords
 
 
@@ -130,6 +162,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
+	PlayAlertSound 1 250
 
 #Body Armor 
 Show
@@ -138,6 +171,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
+	PlayAlertSound 1 250
 
 #boots
 Show
@@ -146,6 +180,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
+	PlayAlertSound 1 250
 #gloves 
 Show
     BaseType "Vaal Gauntlets" "Strapped Mitts" "Conjurer Gloves" "Deerskin Gloves" "Murder Mitts"
@@ -153,6 +188,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
+	PlayAlertSound 1 250
 
 
 #helm
@@ -162,6 +198,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
+	PlayAlertSound 1 250
 
 #######shields
 
@@ -171,6 +208,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
+	PlayAlertSound 1 250
 
 #######Amulet / Ring/ Belt
 
@@ -181,21 +219,22 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
-
+	PlayAlertSound 3 250	
 Show
     BaseType "Gold Ring" "Sapphire Ring" "Prismatic Ring" "Amethyst Ring" "Paua Ring"
     Rarity Unique 
     SetTextColor 175 100 40
     SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
-
+	PlayAlertSound 3 250
 #Utility
 Show
     Class Jewel "Utility Flask"
     Rarity Unique
     SetTextColor 175 100 40
-    SetBorderColor 175 100 40
     SetBackgroundColor 0 0 0
+	PlayAlertSound 3 250
+	
 
 Show
     Class Jewel
@@ -209,6 +248,7 @@ Show
     SetTextColor 175 100 40
     SetBorderColor 0 0 0
     SetBackgroundColor 175 100 40
+
 
 	
 	####
@@ -232,7 +272,21 @@ Show
     SetTextColor 255 255 0
     SetBorderColor 255 255 0
     SetBackgroundColor 0 60 0 200
-	
+	PlayAlertSound 1 250
+
+Show
+	Class "Quiver" "Bow" "Staves" "Two Hand Axes" "Claw" "One Hand Axe" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Mace" "Two Hand Mace" "Two Hand Sword" "Dagger" "Sceptre"
+		Itemlevel >=84
+	    SetBackgroundColor 100 40 40 125
+		PlayAlertSound 3 250
+		
+Show
+	Class  "Body Armour" "Gloves" "Boots" "Belt" "Helm" "Shield" 
+		Itemlevel >= 83
+	    SetBackgroundColor 100 40 40 125
+		PlayAlertSound 3 250
+
+		
 Show
     BaseType "Sai" "Moon Staff" "Maraketh Bow" "Tiger Hook" "Morning Star" "Tornado Wand" "Prophecy Wand" "Imbued Wand" "Infernal Sword" "Void Axe" "Jewelled Foil" "Harpy Rapier" "Judgement Staff" "Void Sceptre" "Midnight Blade" "Eternal Sword" "Harbinger Bow" "Imperial Claw" "Ambusher" "Platinum Kris" "Terror Claw" "Imperial Skean" "Demon Dagger" "Infernal Axe"
     Rarity Rare
@@ -917,4 +971,5 @@ Show
 Hide
 	SetFontSize 20
 	SetBackgroundColor 0 0 0 50
+
 
