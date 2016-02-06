@@ -18,7 +18,10 @@ Show
 	
 Show 
 	Class "Quest Items"
-	
+
+Show
+    BaseType Talisman
+
 #####Shows better currency differently from lower currency for efficiency
 ##### skill gems
 Show
